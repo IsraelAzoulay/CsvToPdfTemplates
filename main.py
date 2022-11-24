@@ -1,5 +1,4 @@
 # Third program - Pdf Generation.
-
 # Third party library for creating pdf objects instances of the FPDF class.
 from fpdf import FPDF
 import pandas as pd
@@ -10,8 +9,10 @@ import pandas as pd
 pdf = FPDF(orientation="portrait", unit="mm", format="A4")
 pdf.set_auto_page_break(auto=False, margin=0)
 
+
 df = pd.read_csv("topics.csv")
 
+# Iterating over each row of the csv file
 for index, row in df.iterrows():
     # Creating\adding a "master" pdf page (with the "add_page()" func which adds page
     # to the document and belongs to the FPDF class).
@@ -34,6 +35,7 @@ for index, row in df.iterrows():
     pdf.cell(w=0, h=10, txt=row["Topic"], align="R")
 
 
+    # Creating the requested num of pages for each topic.
     for page in range(row["Pages"] - 1):
         pdf.add_page()
 
