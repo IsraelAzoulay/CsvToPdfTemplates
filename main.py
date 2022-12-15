@@ -10,7 +10,7 @@ pdf = FPDF(orientation="portrait", unit="mm", format="A4")
 pdf.set_auto_page_break(auto=False, margin=0)
 
 
-df = pd.read_csv("topics.csv")
+df = pd.read_csv("topics.csv", sep=",")
 
 # Iterating over each row of the csv file
 for index, row in df.iterrows():
