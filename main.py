@@ -1,4 +1,3 @@
-# Third program - Pdf Generation.
 # Third party library for creating pdf objects instances of the FPDF class.
 from fpdf import FPDF
 import pandas as pd
