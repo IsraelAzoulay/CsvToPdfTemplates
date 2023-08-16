@@ -1,4 +1,4 @@
 # What is the name of the project? 
-The project's name is: Pdf Template
+CSVisionPDF
 # What is this project?
-This is a pdf template generation program.
+A PDF template generator program.The program generates a PDF template based on the data provided in the CSV file. 
