@@ -17,7 +17,7 @@ A Python based solution for generating PDF files tailored for note-taking on spe
 
 ### How to Use:
 1. Ensure you have Python installed on your machine.
-2. Clone this repository.
+2. Clone this repository: git clone https://github.com/IsraelAzoulay/YourRepositoryName.git
 3. Navigate to the project directory.
 4. Install the required libraries using the command: pip install -r requirements.txt
 5. Run `main.py`: python main.py
