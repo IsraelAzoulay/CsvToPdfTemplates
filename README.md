@@ -32,5 +32,5 @@ A Python based solution for generating PDF files tailored for note-taking on spe
 ### Contribution
 Feel free to fork this repository, make changes, and submit pull requests. Any feedback or suggestions are welcome!
 
-## License
+### License
 This project is licensed under the MIT License.
